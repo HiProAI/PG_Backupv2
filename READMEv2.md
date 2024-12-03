@@ -49,8 +49,8 @@ Replace `[USER_ID]` with the target user's ID or profile URL.
 | `--only-png` | Download only PNG images | `python image-fetcher.py clc963xyc6htds601qogdmqyy --only-png` |
 | `--only-jpeg` | Download only JPEG images | `python image-fetcher.py clc963xyc6htds601qogdmqyy --only-jpeg` |
 | `--name-by-date` | Rename files to creation date | `python image-fetcher.py clc963xyc6htds601qogdmqyy --name-by-date` |
-| `--name-by-date` | Rename files to creation date | `python image-fetcher.py clc963xyc6htds601qogdmqyy --start-date yyyy-mm-dd` |
-| `--name-by-date` | Rename files to creation date | `python image-fetcher.py clc963xyc6htds601qogdmqyy --end-date yyyy-mm-dd` |
+| `--start-date` | Specifies a start date when to dowload images from | `python image-fetcher.py clc963xyc6htds601qogdmqyy --start-date yyyy-mm-dd` |
+| `--end-date` | Specifies an end date when to dowload images from  | `python image-fetcher.py clc963xyc6htds601qogdmqyy --end-date yyyy-mm-dd` |
 
 
 ### Examples
