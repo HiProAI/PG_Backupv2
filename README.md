@@ -1,3 +1,4 @@
+### See the Readme 2 for full descriptions and how to update and run the code
 - Script downloads only public images from Playground.com User Profiles
 - Large collections may take some time to download(up to several hours)
 
