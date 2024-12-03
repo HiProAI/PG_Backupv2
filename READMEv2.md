@@ -44,28 +44,36 @@ Replace `[USER_ID]` with the target user's ID or profile URL.
 
 | Option | Description | Example |
 |--------|-------------|---------|
-| `USER_ID` | Required. User ID or full profile URL | `python image-fetcher.py cldm1234abcd` |
-| `--output` | Custom output directory | `python image-fetcher.py cldm1234abcd --output my_images` |
-| `--only-png` | Download only PNG images | `python image-fetcher.py cldm1234abcd --only-png` |
-| `--only-jpeg` | Download only JPEG images | `python image-fetcher.py cldm1234abcd --only-jpeg` |
-| `--name-by-date` | Rename files to creation date | `python image-fetcher.py cldm1234abcd --name-by-date` |
+| `USER_ID` | Required. User ID or full profile URL | `python image-fetcher.py clc963xyc6htds601qogdmqyy` |
+| `--output` | Custom output directory | `python image-fetcher.py clc963xyc6htds601qogdmqyy --output my_images` |
+| `--only-png` | Download only PNG images | `python image-fetcher.py clc963xyc6htds601qogdmqyy --only-png` |
+| `--only-jpeg` | Download only JPEG images | `python image-fetcher.py clc963xyc6htds601qogdmqyy --only-jpeg` |
+| `--name-by-date` | Rename files to creation date | `python image-fetcher.py clc963xyc6htds601qogdmqyy --name-by-date` |
+| `--name-by-date` | Rename files to creation date | `python image-fetcher.py clc963xyc6htds601qogdmqyy --start-date yyyy-mm-dd` |
+| `--name-by-date` | Rename files to creation date | `python image-fetcher.py clc963xyc6htds601qogdmqyy --end-date yyyy-mm-dd` |
+
 
 ### Examples
 
 1. Download all images for a user:
    ```bash
-   python image-fetcher.py cldm1234abcdefjhig
+   python image-fetcher.py clc963xyc6htds601qogdmqyy
    ```
 
 2. Download only PNG images to a specific directory:
    ```bash
-   python image-fetcher.py cldm1234abcdefjhig --output ./playground_images --only-png
+   python image-fetcher.py clc963xyc6htds601qogdmqyy --output ./playground_images --only-png
    ```
 
 3. Download images with date-based filenames:
    ```bash
-   python image-fetcher.py cldm1234abcdefjhig --name-by-date
+   python image-fetcher.py clc963xyc6htds601qogdmqyy --name-by-date
    ```
+
+4. Download images within a specified date range
+   ```bash
+   python image-fetcher.py clc963xyc6htds601qogdmqyy  --start-date 2024-01-01 --end-date 2024-03-01
+   ```****
 
 ## Output Structure
 - `downloaded_data/`: Default output directory
@@ -85,6 +93,9 @@ Replace `[USER_ID]` with the target user's ID or profile URL.
 
 
 ### Changes Version 2.0 by Hiprofile.com 
+# Playground-backup
+#https://github.com/alexfixer/Playground-backup.git
+
 
 New Class Parameters
 Added start_date and end_date parameters to the ImageFetcher class initialization
