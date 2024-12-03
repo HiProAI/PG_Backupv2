@@ -5,7 +5,8 @@
 ### Changes Version 2.0 by Hiprofile.com 
 # Playground-backup
 #https://github.com/alexfixer/Playground-backup.git
-
+# Playground-Backup V2
+#https://github.com/HiProAI/PG_Backupv2/
 
 New Class Parameters
 Added start_date and end_date parameters to the ImageFetcher class initialization
